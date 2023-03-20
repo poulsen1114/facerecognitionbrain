@@ -63,13 +63,13 @@ function ParticlesComponent() {
                     width: 1,
                 },
                 collisions: {
-                    enable: true,
+                    enable: false,
                 },
                 move: {
                     directions: "none",
                     enable: true,
                     outModes: {
-                        default: "out"                                  
+                        default: "bounce"                                  
                     },
                     random: false,
                     speed: 2,
